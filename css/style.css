@@ -1,0 +1,27 @@
+.body-view {
+	padding-bottom: 20px;
+	margin-top: 80px;
+}
+.container {
+	width: 95%;
+}
+.padding-10 {
+	padding: 10px;
+}
+.margin-top-20 {
+	margin-top: 20px;
+}
+.loader {
+	background: rgba(42, 42, 42, 0.5);
+	display: block;
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 9999;
+}
+.loader img {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}

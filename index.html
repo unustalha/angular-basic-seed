@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" ng-app="myBoilerPlate">
+<head>
+	<meta charset="utf-8">
+	<title>AngularJs Boilerplate</title>
+	<meta name="description" content="This a basic angularJs boilerplate">
+	<meta name="author" content="Younus Talha - unustalha@gmail.com">
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="js/angular1.4.4/angular.js"></script>
+	<script src="js/angular1.4.4/angular.router.js"></script>
+	<script src="js/angular1.4.4/angular.resource.js"></script>
+
+	<script src="js/config.js"></script>
+	<script src="js/factory.js"></script>
+	<script src="js/resources.js"></script>
+	<script src="js/routers.js"></script>
+	<script src="js/controllers.js"></script>
+
+	<script src="jquery/jquery.min.js"></script>
+
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<include ng-include="'includes/header.html'"></include>
+	<div class="body-view">
+		<div class="container" ng-view>
+		</div>
+	</div>
+	<include ng-include="'includes/footer.html'"></include>
+
+<div class="loader" style="display:none;">
+	<img src="img/loader.gif" alt="" />
+</div>	
+</body>
+</html>

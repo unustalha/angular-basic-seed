@@ -1,0 +1,13 @@
+<div class="jumbotron">
+	<h1>Services</h1>
+	<p></p>
+</div>
+<table class="table table-striped">
+	<tr ng-repeat="service in services">
+		<td>
+			<h3 ng-bind="service.Title"></h3>
+			<p ng-bind="service.ShortDesc"></p>
+		<p><a href="#/service-detail/{{service.serviceID}}">Read More</a></p>
+		</td>
+	</tr>
+</table>
