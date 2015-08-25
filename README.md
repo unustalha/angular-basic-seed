@@ -1,8 +1,6 @@
-# AngularJs boilerplate v1
+# Ready to use AngularJs basic project setup
 
-Easy to use and flexible boilerplate for everyone. Developed by [Younus Talha](http://www.younustalha.com)
-
-## This basic boilerplate have:
+## This project have:
 * Basic configuration
 * Routers
 * Controller
